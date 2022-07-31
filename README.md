@@ -51,26 +51,29 @@ python -m pip install --upgrade pip==20.2.3
 
 ## Initial setup
 
-1. Fork the <a href="https://github.com/udacity/cd0157-Server-Deployment-and-Containerization" target="_blank">Server and Deployment Containerization Github repo</a> to your Github account.
-1. Locally clone your forked version to begin working on the project.
+The following steps will help you to work with this project locally:
+
+1. Fork the existing project repository.
+2. Locally clone your forked version to begin working on the project.
 ```bash
-git clone https://github.com/SudKul/cd0157-Server-Deployment-and-Containerization.git
-cd cd0157-Server-Deployment-and-Containerization/
+git clone https://github.com/rainfidelis/aws-flask-deployment.git
+cd aws-flask-deployment/
 ```
-1. These are the files relevant for the current project:
+3. Remember to setup your local environment variables using the `env.example` sample file.
+4. Finally, remember to configure the files marked below for your aws account:
 ```bash
 .
 ├── Dockerfile 
 ├── README.md
-├── aws-auth-patch.yml #ToDo
-├── buildspec.yml      #ToDo
-├── ci-cd-codepipeline.cfn.yml #ToDo
-├── iam-role-policy.json  #ToDo
+├── aws-auth-patch.yml #Edit
+├── buildspec.yml  #Edit
+├── ci-cd-codepipeline.cfn.yml  #Edit
+├── iam-role-policy.json  #Edit
 ├── main.py
 ├── requirements.txt
 ├── simple_jwt_api.yml
-├── test_main.py  #ToDo
-└── trust.json     #ToDo 
+├── test_main.py #Edit
+└── trust.json   #Edit
 ```
 
      
